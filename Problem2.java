@@ -1,3 +1,7 @@
+//TC: O(log n) for insert, extractMin, O(1) to getMin, O(n) to print minheap
+//SC: no extra space, O(1)
+//approach: heapify up and down are used to ensure minheap property at each insertion or extraction
+
 class MinHeap {
     private final int[] heap;
     private int size;
